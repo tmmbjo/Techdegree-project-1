@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/canada_bike.jpg') no-repeat top center ;
+  background: url('images/canada_bike_background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -95,11 +95,11 @@ header .profile-image:hover {
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 100px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: /*#ff99ff;*/ #137294;
 }
 
 ul.skills {
@@ -145,11 +145,11 @@ a.social {
   display: inline-block;
   text-indent: -9999px;
   margin-left: 5px;
-  width: 30px;
+  width: 30px;transform:
   height: 30px;
   background-size: 30px 30px;
   opacity: .4;
-  transition: all .5s;
+  transition: all 2s;
 }
 a.twitter {
   background-image: url(images/twitter.svg);
