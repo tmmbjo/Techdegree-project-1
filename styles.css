@@ -62,12 +62,10 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
-
-.xp_background {
-  background: url('images/autumn_maple_leaves.jpg');
-
+/*Change background image for experience page*/
+header.xp_background {
+  background: url('images/workspace_bg.jpg') no-repeat center ;
 }
-
 header {
   line-height: 1.5;
 }
@@ -90,12 +88,14 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 }
-
-.tag .experience {
+/*Different color headers for each page*/
+.tag.experience {
   color: #fcba03;
 }
-
-.tag .projects {
+.tag.blog {
+  color: #0099e6;
+}
+.tag.projects {
   color: gray;
 }
 
