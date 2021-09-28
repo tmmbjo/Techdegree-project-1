@@ -84,10 +84,20 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 }
+
+.experience {
+  color: #fcba03;
+}
+
+.projects {
+  color: gray;
+}
+
 .location {
   background-color: #222;
   color: yellow;
 }
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -98,6 +108,7 @@ header .profile-image:hover {
   border-radius: 100px;
   transition: all .5s;
 }
+
 .card:hover {
   border-color: /*#ff99ff;*/ #137294;
 }
